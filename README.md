@@ -23,16 +23,6 @@ This package is prepared for a PHP/MySQL live server such as cPanel shared hosti
 9. Confirm that `install.lock` remains in place.
 10. Open `login.php` and sign in.
 
-## Accounts created by installer
-
-- Primary admin: `evan` / `Qwaszx92837465@`
-- Admin: `shaif` / `shaif123`
-- Admin: `fahad` / `fahad123`
-- Viewer: `marcus` / `marcus321`
-- Viewer: `james` / `james321`
-
-Change the shorter default passwords immediately before real use. They are hashed in MySQL, but `shaif123`, `fahad123`, `marcus321`, and `james321` are weak passwords.
-
 ## Manual configuration option
 
 Instead of using the installer:
