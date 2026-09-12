@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+}
+.login-page {
+    background: linear-gradient(135deg, #eef4ff, #f8f9fa);
+}
+.card {
+    border: 0;
+    box-shadow: 0 0.125rem 0.6rem rgba(0,0,0,.06);
+}
+.stat-card {
+    height: 100%;
+}
+.stat-card .display-6 {
+    font-size: 1.8rem;
+}
+.table thead th {
+    white-space: nowrap;
+    font-size: .85rem;
+    color: #6c757d;
+    background: #f8f9fa;
+}
+.navbar-brand {
+    letter-spacing: .2px;
+}
+@media (max-width: 767px) {
+    .display-6 {
+        font-size: 1.5rem !important;
+    }
+}
